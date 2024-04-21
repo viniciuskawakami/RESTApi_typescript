@@ -7,8 +7,8 @@ dotenv.config();
 let env_vars = process.env;
 const PORT = process.env.API_PORT || 3000;
 
-console.log(env_vars); // ok
-console.log("conectou no Mysql!!");
+// console.log(env_vars); // ok
+console.log("conectou no Mysql!!§§§§§§");
 
 app.listen(PORT, () => {
   console.log(
