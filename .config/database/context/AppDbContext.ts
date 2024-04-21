@@ -1,10 +1,10 @@
-import { createConnection, mysql } from 'mysql';
+import { mysql } from 'mysql';
 import {*} as dotenv from 'dotenv';
 import { error } from 'console';
 
 dotenv.config();
 console.log(process.env);
-TODO: //verificar se o proccess.env foi parseado corretamente aqui!
+// TODO: verificar se o proccess.env foi parseado corretamente aqui!
 const { DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_SCHEMA } = process.env;
 
 console.log(process.env);
